@@ -75,10 +75,6 @@ export default function QuestDetailPage() {
 
       <section className="card space-y-4 p-6">
         <h2 className="font-semibold">Actions (wallet required)</h2>
-        <p className="text-sm text-amber-200/90">
-          TODO: implement transaction hooks in <code>lib/hooks/useQuestEscrow.ts</code> so these buttons
-          send real transactions.
-        </p>
 
         {quest.status === 0 && !isPoster && (
           <button

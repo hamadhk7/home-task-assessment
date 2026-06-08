@@ -43,7 +43,7 @@ export default function CreateQuestPage() {
       <div>
         <h1 className="text-2xl font-bold">Post a quest</h1>
         <p className="mt-2 text-sm text-slate-400">
-          TODO: wire this form to <code>createQuest</code> on your deployed contract (ETH path).
+          Create an on-chain quest with ETH escrow. Connect your wallet to get started.
         </p>
       </div>
 
